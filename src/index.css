@@ -11,3 +11,74 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+#sign_up{
+background-color: black;
+color: white;
+border-radius: 25px;
+width: 100px;
+margin-left: auto;
+justify-content: center;
+}
+#sign_up:hover{
+  background-color: blanchedalmond;
+  color: black;
+}
+.sign_up_txt{
+text-transform: lowercase;
+font-family: 'Times New Roman', Times, serif;
+font-size: 1.2em;
+}
+#login_in{
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+}
+#logo{
+max-width: 300px;
+max-height: 100px;
+}
+#title{
+  display: grid;
+  font-family: 'Times New Roman', Times, serif;
+  align-self:flex-end;
+  font-size:2em;
+}
+#featured_matches{
+font-family: 'Times New Roman', Times, serif;
+display: grid;
+text-align: left;
+margin-left: 18px;
+margin-bottom: 10px;
+font-weight: lighter;
+letter-spacing: 5px;
+}
+.teams{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2em;
+  font-weight:normal;
+}
+#team2_btn{
+  background-color: black;
+  margin-left: 1em;
+}
+#team2_btn:hover{
+  background-color: blanchedalmond;
+  color: black;
+}
+#team1_btn{
+  background-color:blanchedalmond;
+  color: black;
+}
+#team1_btn:hover{
+  background-color: black;
+  color: blanchedalmond;
+}
+.Cards{
+  border: 5px solid black;
+  margin-left: 1.5em;
+}
+.Match_type{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 4em;
+  margin-top: 1em;
+  text-decoration: underline;
+}
